@@ -1,0 +1,15 @@
+@color: #d0e54c;
+@height: 120px;
+
+.rectangle {
+    display: inline-block;
+    background-color: @color;
+    height: @height;
+    width: 170px;
+    border: @color - #222 solid @height * 0.1;
+}
+
+#rectangle2 {
+    margin-left: 50px;
+    background-color: lighten(@color, 30%);
+}
